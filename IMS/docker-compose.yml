@@ -1,0 +1,6 @@
+﻿services:
+  ims:
+    image: ims
+    build:
+      context: .
+      dockerfile: src/ims/Dockerfile
